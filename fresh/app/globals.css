@@ -27,11 +27,16 @@ body {
 }
 
 .navbar {
-    background: white;
+    background: rgb(198, 195, 189);
     padding: 20px;
 }
 
 .navbar a{
     margin-right: 20px;
     text-decoration: none;
+}
+
+.food-img {
+    width: 100%;
+    height: auto;
 }
