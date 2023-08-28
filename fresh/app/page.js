@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <h4 className="title">Fresh</h4>
-      <p className="title-sub">by. { name }</p>
+      <p className="title-sub">by.dev { name }</p>
     </div>
   )
 }
