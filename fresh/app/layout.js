@@ -10,13 +10,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <div className="navbar">
-        <Link href="/">HOME</Link>
-        <Link href="/list">LIST</Link>
-        <Link href="/cart">CART</Link>
-      </div>
+        <Navber />
         {children}
         </body>
     </html>
+  )
+}
+
+function Navber() {
+  return (
+    <div className="navbar">
+    <Link href="/">HOME</Link>
+    <Link href="/list">LIST</Link>
+    <Link href="/cart">CART</Link>
+    <Link href="/test">TEST</Link>
+  </div>
   )
 }
